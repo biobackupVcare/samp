@@ -16,6 +16,9 @@ app.get('/',(req,res)=>{
 app.get('/hello',(req,res)=>{
     res.send("sdmklnfdls")
 })
+app.get('/lo',(req,res)=>{
+    req.send("hello world good morning")
+})
 
 app.listen(port,()=>{
     console.log('nvkngf')
