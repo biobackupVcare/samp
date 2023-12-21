@@ -23,6 +23,10 @@ app.get('/rakesh',(req,res)=>{
     res.send("first go world")
 })
 
+app.get('/my',(res,req)=>{
+    res.send('hey buddy')
+})
+
 app.listen(port,()=>{
     console.log('nvkngf')
 })
