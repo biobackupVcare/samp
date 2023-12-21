@@ -17,7 +17,10 @@ app.get('/hello',(req,res)=>{
     res.send("sdmklnfdls")
 })
 app.get('/lo',(req,res)=>{
-    req.send("hello world good morning")
+    res.send("hello world good morning")
+})
+app.get('/rakesh',(req,res)=>{
+    res.send("first go world")
 })
 
 app.listen(port,()=>{
