@@ -23,7 +23,7 @@ app.get('/rakesh',(req,res)=>{
     res.send("first go world")
 })
 
-app.get('/my',(res,req)=>{
+app.get('/my',(req,res)=>{
     res.send("hey buddy")
 })
 
