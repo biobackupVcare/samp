@@ -24,7 +24,7 @@ app.get('/rakesh',(req,res)=>{
 })
 
 app.get('/my',(res,req)=>{
-    res.send('hey buddy')
+    res.send("hey buddy")
 })
 
 app.listen(port,()=>{
